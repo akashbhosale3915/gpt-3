@@ -24,8 +24,12 @@ const Header = () => {
             />
             <button className="getstarted">Get Started</button>
           </div>
-          <img src={people} alt="people" />
-          <p>1,600 people requested access a visit in last 24 hours</p>
+          <div className="people__wrapper">
+            <img src={people} alt="people" />
+            <p className="people__num">
+              1,600 people requested access a visit in last 24 hours
+            </p>
+          </div>
         </div>
         <div className="header__right__section">
           <img src={ai} alt="AI" />
