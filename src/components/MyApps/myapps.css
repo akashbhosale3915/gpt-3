@@ -1,0 +1,49 @@
+.myapps {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 50px 0 100px 0;
+}
+.myapps__imgdiv {
+  width: 50%;
+  height: 607.53px;
+}
+
+.myapps__content__wrapper {
+  width: 50%;
+}
+
+.myapps__imgdiv img {
+  width: 546px;
+  height: 100%;
+}
+
+.myapps__request {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-text);
+}
+
+.myapps__possibilities {
+  background: var(--gradient-text);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  margin-top: 15px;
+}
+
+.myapps__content {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-text);
+  margin-top: 21px;
+}
+
+.myapps__request__early {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+  margin-top: 31px;
+}
