@@ -4,7 +4,7 @@ import "./feature.css";
 const Feature = () => {
   return (
     <React.Fragment>
-      <div className="feature">
+      <div className="feature" id="openai">
         <div className="feature__left">
           <h1>
             The Future is Now and You Just Need To Realize It. Step into Future

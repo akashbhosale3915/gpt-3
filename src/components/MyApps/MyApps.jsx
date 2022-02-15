@@ -5,7 +5,7 @@ import myapps from "../../assets/possibility.png";
 const MyApps = () => {
   return (
     <React.Fragment>
-      <div className="myapps">
+      <div className="myapps" id="case">
         <div className="myapps__imgdiv">
           <img src={myapps} alt="My Apps" />
         </div>

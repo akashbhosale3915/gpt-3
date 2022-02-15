@@ -4,7 +4,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <React.Fragment>
-      <div className="footer">
+      <div className="footer" id="library">
         <h1 className="footer__gradient">
           Do you want to step in to the future before others
         </h1>

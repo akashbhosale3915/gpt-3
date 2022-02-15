@@ -1,0 +1,12 @@
+.Overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  height: 40px;
+  width: 40px;
+  background: var(--gradient-bar);
+  border-radius: 50%;
+}

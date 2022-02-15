@@ -4,27 +4,27 @@ import "./nav.css";
 const Nav = () => {
   return (
     <React.Fragment>
-      <nav>
+      <nav id="nav">
         <h1>GPT-3</h1>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
           </li>
           <li>
-            <a href="#">What is GPT?</a>
+            <a href="#whatgpt3">What is GPT?</a>
           </li>
           <li>
-            <a href="#">Open AI</a>
+            <a href="#openai">Open AI</a>
           </li>
           <li>
-            <a href="#">Case Studies</a>
+            <a href="#case">Case Studies</a>
           </li>
           <li>
-            <a href="#">Library</a>
+            <a href="#library">Library</a>
           </li>
         </ul>
         <div className="sign__in__up">
-          <a href="#">Sign in</a>
+          <a href="!#">Sign in</a>
           <button>Sign up</button>
         </div>
       </nav>

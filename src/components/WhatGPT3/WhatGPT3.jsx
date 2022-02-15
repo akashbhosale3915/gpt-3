@@ -4,7 +4,7 @@ import "./whatgpt3.css";
 const WhatGPT3 = () => {
   return (
     <React.Fragment>
-      <div className="whatgpt3">
+      <div className="whatgpt3" id="whatgpt3">
         <div className="whatgpt3__div1">
           <h1 className="whatgpt3__title">What is GPT-3</h1>
           <p className="whatgpt3__para para__whatgpt3">

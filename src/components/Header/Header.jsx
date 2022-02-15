@@ -5,7 +5,7 @@ import ai from "../../assets/ai.png";
 const Header = () => {
   return (
     <React.Fragment>
-      <div className="header">
+      <div className="header" id="home">
         <div className="header__left__section">
           <h1 className="header__title">
             Let’s Build Something amazing with GPT-3 OpenAI

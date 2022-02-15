@@ -7,6 +7,7 @@ import Nav from "./components/Nav/Nav";
 import WhatGPT3 from "./components/WhatGPT3/WhatGPT3";
 import Bar from "./components/Bar/Bar";
 import Footer from "./components/Footer/Footer";
+import Overlay from "./components/Overlay/Overlay";
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
       <MyApps />
       <Bar />
       <Footer />
+      <Overlay />
     </div>
   );
 }
